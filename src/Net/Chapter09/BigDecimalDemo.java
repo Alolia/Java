@@ -28,9 +28,7 @@ public class BigDecimalDemo {
 	}
 
 	private BigDecimal div(double value1, double value2, int c) {
-		if(c<0){
-			System.out.println("±ØÐë´óÓÚ0Å¶");
-		}
+		
 		BigDecimal a =new BigDecimal(Double.toString(value1));
 		BigDecimal b =new BigDecimal(Double.toString(value2));
 		return a.divide(b,c,BigDecimal.ROUND_HALF_UP);
