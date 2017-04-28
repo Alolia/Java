@@ -32,7 +32,7 @@ public class Test {
 		 * teacher t =new teacher(); t.id ="321321"; System.out.println(t);
 		 * 
 		 * }
-		 ***/
+		 **/
 	}
 
 }
