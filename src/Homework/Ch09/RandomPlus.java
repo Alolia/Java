@@ -1,11 +1,11 @@
 package Homework.Ch09;
 
 public class RandomPlus {
-	public static double EvenNum(double num1, double num2) {
+	public static double EvenNum(double a, double b) {
 		double sum = 0;
 		int count = 0;
 		while (true) {
-			int tmp = (int) num1 + (int) (Math.random() * (num2 - num1));
+			int tmp = (int) a + (int) (Math.random() * (b - a));
 			if (tmp != 0 && tmp % 2 == 0) {
 				System.out.println("抽到2-32之间的一个偶数 ： " + tmp);
 				sum += tmp;

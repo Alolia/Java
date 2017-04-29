@@ -29,7 +29,7 @@ public class overloadtest {
 		System.out.println("调用add(double,double)方法: " +add(2.1,3.3));
 		System.out.println("调用add（int）方法: " +add(1));
 		System.out.println("调用不定长参数方法: " +add(1,2,3,4,6,7,9));
-		System.out.println("调用不定长参数方法: " +add(1));
+		System.out.println("调用不定长参数方法: " +add(5));
 	}
 
 }
