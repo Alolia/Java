@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Yuan {
 
 	public static void main(String[] args) {
-		System.out.print("ÇëÊäÈëÔ²µÄ°ë¾¶=");
+		System.out.print("ÊäÈëÔ²µÄ°ë¾¶=");
 		Scanner input =new Scanner(System.in);
 		int r =input.nextInt();
 		
