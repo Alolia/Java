@@ -14,7 +14,7 @@ public class FlowLayoutPosition extends JFrame {
 		setTitle("流布局");
 		Container c = getContentPane();
 		setLayout(new FlowLayout(2,10,10));
-		for (int i=0;i<100;i++){
+		for (int i=1;i<64;i++){
 			c.add(new JButton("按钮" + i));
 		}
 		setSize(600,400);
