@@ -5,6 +5,7 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
 
+@SuppressWarnings("serial")
 public class JFrameTest extends JFrame {
 	public void CreateJFrame(String title){
 		JFrame jf =new JFrame(title);
