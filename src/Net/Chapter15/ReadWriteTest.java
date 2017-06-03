@@ -58,7 +58,9 @@ class TextEditorFrame extends JFrame {
 */
 	JPanel southPanel = new JPanel();
 
-	southPanel.setLayout(new GridLayout(1,2));southPanel.add(readerButton);southPanel.add(writerButton);
+	southPanel.setLayout(new GridLayout(1,2));
+	southPanel.add(readerButton);
+	southPanel.add(writerButton);
 
 	add(southPanel,BorderLayout.SOUTH);
 
