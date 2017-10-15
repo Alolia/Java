@@ -425,7 +425,7 @@
 				<database.jdbc.driver>com.mysql.jdbc.Driver</database.jdbc.driver>
 				<database.jdbc.url><![CDATA[jdbc:mysql://rm-uf653h6hcelwvkwq5o.mysql.rds.aliyuncs.com:3306/prototype_zt?useUnicode=true&amp;amp;characterEncoding=utf8]]></database.jdbc.url>
 				<database.jdbc.name>zhangtao</database.jdbc.name>
-				<database.jdbc.password>12345678</database.jdbc.password>
+				<database.jdbc.password>123456781</database.jdbc.password>
 			</properties>
 		</profile>
 	</profiles>
