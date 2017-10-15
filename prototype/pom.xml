@@ -413,7 +413,7 @@
 		<database.jdbc.pool.max.active>20</database.jdbc.pool.max.active>
 		<database.jdbc.test.sql><![CDATA[SELECT 1]]></database.jdbc.test.sql>
 	</properties>
-	
+
 	<profiles>
 		<profile>
 			<id>sit</id>
@@ -429,7 +429,7 @@
 			</properties>
 		</profile>
 	</profiles>
-	
+
 	<build>
 		<finalName>prototype</finalName>
 		<resources>
